@@ -1,0 +1,91 @@
+body{
+    background-color: rgba(32, 3, 67);
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    padding-bottom: 200;
+}
+.red{
+    width: 600px;
+    height: 600px;
+    background: rgb(255,2,2);
+    background: linear-gradient( to bottom, rgba( 255,2,2,0.9626225490196079) 50%, rgba(255,109,0,0.9290091036414566) 100%);
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+.red_yopish{
+    width: 300px;
+    height: 610px;
+    background-color: rgba(32, 3, 67);
+    position: absolute;
+    top:200px;
+    left: 400px;
+}
+.white{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    position: absolute;
+    top: 250px;
+    left: 500px;
+    z-index: 2;
+    border-top-left-radius: 100%;
+}
+.yellow{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    position: absolute;
+    top: 250px;
+    left: 700px;
+    z-index: 2;
+    border-top-right-radius: 100%;
+}
+.smoke{
+    width: 200px;
+    height: 200px;
+    background-color: #655b5b;
+    position: absolute;
+    top: 450px;
+    left: 700px;
+    z-index: 2;
+    border-bottom-right-radius: 100%;
+}
+.orenge{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: absolute;
+    top: 450px;
+    left: 600px;
+    border-bottom-left-radius: 100%;
+    z-index: 3;
+}
+.black{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    top: 350px;
+    left: 700px;
+    z-index: 5;
+    border-radius: 50%;
+}
+.block{
+    max-width: 100vh;
+    height: 100%;
+    position: relative;
+    bottom: 100px;
+    right: 50px;
+}
+.box{
+    width: 100vh;
+    height: 100%;
+    position: relative;
+    top: 50px;
+}
